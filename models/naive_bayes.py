@@ -1,5 +1,6 @@
 
 import numpy as np
+import matplotlib as plt
 
 class ManualNaiveBayes:
     def __init__(self):
@@ -40,3 +41,5 @@ class ManualNaiveBayes:
             likelihood = self._calculate_likelihood(i, x)
             posteriors.append(prior + likelihood)
         return self.classes[np.argmax(posteriors)]
+
+  
