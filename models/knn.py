@@ -12,20 +12,17 @@ class KNNClassifier:
         self.X_train = X
         self.y_train = y
 
-    def euclidean_distance(self, x1, x2):
-        return np.sqrt(np.sum((x1 - x2) ** 2))
-
     def predict_one(self, x):
-        distances = []
+        # Compute distances from x to all training samples at once
+        distances = np.sqrt(np.sum((self.X_train - x) ** 2, axis=1))
 
-        for i in range(len(self.X_train)):
-            dist = self.euclidean_distance(x, self.X_train[i])
-            distances.append((dist, self.y_train[i]))
+        # Get indices of the k nearest neighbors without sorting all distances
+        k_indices = np.argpartition(distances, self.k)[:self.k]
 
-        distances.sort(key=lambda item: item[0])
+        # Get labels of the nearest neighbors
+        k_nearest_labels = self.y_train[k_indices]
 
-        k_nearest_labels = [label for _, label in distances[:self.k]]
-
+        # Majority vote
         most_common = Counter(k_nearest_labels).most_common(1)
         return most_common[0][0]
 
