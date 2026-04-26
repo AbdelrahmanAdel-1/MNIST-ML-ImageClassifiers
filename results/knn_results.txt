@@ -1,11 +1,14 @@
+KNN Manual Evaluation Results
+=============================
+
+Best k: 1
 Test Accuracy: 0.9949
+Precision: 0.9617
+Recall: 0.9947
+F1-score: 0.9779
 
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       1.00      0.99      1.00      8865
-           1       0.96      0.99      0.98      1135
-
-    accuracy                           0.99     10000
-   macro avg       0.98      0.99      0.99     10000
-weighted avg       1.00      0.99      0.99     10000
+Confusion Matrix:
+[[TN FP]
+ [FN TP]]
+[[8820   45]
+ [   6 1129]]
