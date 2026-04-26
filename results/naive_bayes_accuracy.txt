@@ -1,4 +1,5 @@
+Model: Naive Bayes
 Accuracy: 0.9122
 Precision: 0.5652
 Recall: 0.9815
-F1: 0.7173
+F1-Score: 0.7173

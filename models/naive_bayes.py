@@ -20,7 +20,7 @@ class ManualNaiveBayes:
         for i, c in enumerate(self.classes):
             X_c = X[y == c]
             self.means[i, :] = np.mean(X_c, axis=0)
-            self.vars[i, :] = np.var(X_c, axis=0) + 1e-4 
+            self.vars[i, :] = np.var(X_c, axis=0) + 1e-4
             self.priors[i] = X_c.shape[0] / float(n_samples)
 
     def _calculate_likelihood(self, class_idx, x):
@@ -42,4 +42,4 @@ class ManualNaiveBayes:
             posteriors.append(prior + likelihood)
         return self.classes[np.argmax(posteriors)]
 
-  
+
