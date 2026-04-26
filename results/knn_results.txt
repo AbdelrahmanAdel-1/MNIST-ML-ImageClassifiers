@@ -1,14 +1,22 @@
 KNN Manual Evaluation Results
 =============================
 
+Model: KNN
 Best k: 1
-Test Accuracy: 0.9949
-Precision: 0.9617
-Recall: 0.9947
-F1-score: 0.9779
 
-Confusion Matrix:
+Test Accuracy : 0.9949
+Precision     : 0.9617
+Recall        : 0.9947
+F1-score      : 0.9779
+
+Confusion Matrix Format:
 [[TN FP]
  [FN TP]]
+
 [[8820   45]
  [   6 1129]]
+
+TN: 8820
+FP: 45
+FN: 6
+TP: 1129
