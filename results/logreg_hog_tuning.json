@@ -1,0 +1,1 @@
+{"model": "HOG + Logistic (L2)", "accuracy": 0.9911, "precision": 0.957968476357268, "recall": 0.9638766519823788, "f1_score": 0.9609134826526131}
