@@ -1,0 +1,10 @@
+==================================================
+ CROSS-VALIDATION ANALYSIS: Naive Bayes (PCA-50)
+==================================================
+  Validation Scores per Fold : [0.9404, 0.9489, 0.9495, 0.9398, 0.9365]
+  Arithmetic Mean (F1)        : 0.9430
+  Standard Deviation (σ)     : 0.0052
+--------------------------------------------------
+ Summary: The low standard deviation indicates high model 
+ stability across different data partitions.
+==================================================
