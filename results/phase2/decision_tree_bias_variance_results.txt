@@ -1,0 +1,22 @@
+Decision Tree — Bias Variance Analysis
+==================================================
+
+Depth: 4
+Train Accuracy: 0.5536
+Validation Accuracy: 0.5576
+
+Depth: 6
+Train Accuracy: 0.7369
+Validation Accuracy: 0.7293
+
+Depth: 8
+Train Accuracy: 0.8321
+Validation Accuracy: 0.8090
+
+Depth: 10
+Train Accuracy: 0.8999
+Validation Accuracy: 0.8554
+
+Depth: 12
+Train Accuracy: 0.9284
+Validation Accuracy: 0.8631
