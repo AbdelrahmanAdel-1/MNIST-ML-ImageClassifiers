@@ -1,0 +1,10 @@
+============================================================
+     PCA HYPERPARAMETER TUNING ANALYSIS (Naive Bayes)
+============================================================
+ Components (k)  Accuracy  Macro-F1  Weighted-F1
+             30    0.8666    0.8651       0.8665
+             50    0.8776    0.8764       0.8775
+            100    0.8745    0.8735       0.8744
+============================================================
+Observation: Increasing k from 30 to 100 improves performance, 
+but gains diminish significantly after k=50.
