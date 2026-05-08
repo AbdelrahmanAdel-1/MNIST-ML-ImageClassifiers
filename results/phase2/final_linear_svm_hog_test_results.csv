@@ -1,0 +1,2 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted Precision,Weighted Recall,Weighted F1
+Final Tuned One-vs-Rest Linear SVM — HOG Test Set,0.9691,0.969038276695032,0.9687810514887604,0.9688729539668713,0.9691095637444263,0.9691,0.9690679752741311
