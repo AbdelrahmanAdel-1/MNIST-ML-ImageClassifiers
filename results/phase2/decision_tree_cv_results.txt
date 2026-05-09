@@ -1,0 +1,20 @@
+Decision Tree — Cross Validation Results
+==================================================
+
+Params: {'max_depth': 8, 'min_samples_split': 40}
+Mean Accuracy: 0.7690
+Std Accuracy : 0.0081
+Mean F1      : 0.7659
+Std F1       : 0.0082
+
+Params: {'max_depth': 10, 'min_samples_split': 30}
+Mean Accuracy: 0.7756
+Std Accuracy : 0.0032
+Mean F1      : 0.7718
+Std F1       : 0.0035
+
+Params: {'max_depth': 12, 'min_samples_split': 20}
+Mean Accuracy: 0.7814
+Std Accuracy : 0.0029
+Mean F1      : 0.7771
+Std F1       : 0.0029
