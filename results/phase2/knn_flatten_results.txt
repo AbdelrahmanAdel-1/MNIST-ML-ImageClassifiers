@@ -19,6 +19,6 @@ Test Confusion Matrix:
  [  13    4    9   26   10   29    1    7  867    8]
  [   7    6    4   13   14    3    0   30    4  928]]
 
-Train time: 0.0268
-Validation time: 7.2887
-Test time: 6.0057
+Train time: 0.0281
+Validation time: 7.2978
+Test time: 6.1063

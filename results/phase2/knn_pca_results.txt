@@ -20,5 +20,5 @@ Test Confusion Matrix:
  [   3    4    4    5    8    4    1   11    2  967]]
 
 Train time: 0.0020
-Validation time: 5.7315
-Test time: 4.8614
+Validation time: 5.6692
+Test time: 4.8817
