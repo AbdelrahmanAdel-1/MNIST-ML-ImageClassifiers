@@ -1,0 +1,11 @@
+KNN Flatten Results
+========================================
+
+Accuracy : 0.9943
+Precision: 0.9591
+Recall   : 0.9921
+F1-score : 0.9753
+
+Confusion Matrix:
+[[8817   48]
+ [   9 1126]]

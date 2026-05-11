@@ -1,0 +1,11 @@
+KNN PCA Results
+========================================
+
+Accuracy : 0.9949
+Precision: 0.9617
+Recall   : 0.9947
+F1-score : 0.9779
+
+Confusion Matrix:
+[[8820   45]
+ [   6 1129]]

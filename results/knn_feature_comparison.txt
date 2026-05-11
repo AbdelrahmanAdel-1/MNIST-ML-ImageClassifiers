@@ -1,0 +1,33 @@
+KNN Feature Comparison
+========================================
+
+Feature: Flatten
+Validation Accuracy: 0.9951
+Test Accuracy      : 0.9943
+Test Precision     : 0.9591
+Test Recall        : 0.9921
+Test F1-score      : 0.9753
+Confusion Matrix:
+[[8817   48]
+ [   9 1126]]
+----------------------------------------
+Feature: PCA
+Validation Accuracy: 0.9958
+Test Accuracy      : 0.9949
+Test Precision     : 0.9617
+Test Recall        : 0.9947
+Test F1-score      : 0.9779
+Confusion Matrix:
+[[8820   45]
+ [   6 1129]]
+----------------------------------------
+Feature: HOG
+Validation Accuracy: 0.9905
+Test Accuracy      : 0.9890
+Test Precision     : 0.9184
+Test Recall        : 0.9912
+Test F1-score      : 0.9534
+Confusion Matrix:
+[[8765  100]
+ [  10 1125]]
+----------------------------------------

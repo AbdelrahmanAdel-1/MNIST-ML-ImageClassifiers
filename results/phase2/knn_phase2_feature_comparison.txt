@@ -1,0 +1,28 @@
+KNN Phase 2 Feature Comparison
+==================================================
+
+1) Flatten
+Validation Accuracy: 0.9465
+Test Accuracy      : 0.9447
+Precision          : 0.9449
+Recall             : 0.9439
+F1-score           : 0.9441
+Test time          : 6.1063 sec
+--------------------------------------------------
+
+2) PCA
+Validation Accuracy: 0.9667
+Test Accuracy      : 0.9647
+Precision          : 0.9650
+Recall             : 0.9643
+F1-score           : 0.9645
+Test time          : 4.8817 sec
+--------------------------------------------------
+
+3) HOG
+Validation Accuracy: 0.9358
+Test Accuracy      : 0.9341
+Precision          : 0.9361
+Recall             : 0.9332
+F1-score           : 0.9339
+Test time          : 5.3617 sec

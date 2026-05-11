@@ -1,0 +1,17 @@
+KNN Hyperparameter Tuning Results
+=============================================
+
+k = 1 | Validation Accuracy = 0.9662
+k = 3 | Validation Accuracy = 0.9667
+k = 5 | Validation Accuracy = 0.9659
+k = 7 | Validation Accuracy = 0.9645
+
+Best k = 3
+Best Validation Accuracy = 0.9667
+
+Overfitting / Underfitting Diagnosis
+---------------------------------------------
+k = 1 | Training Accuracy = 1.0000 | Validation Accuracy = 0.9662
+k = 3 | Training Accuracy = 0.9830 | Validation Accuracy = 0.9667
+k = 5 | Training Accuracy = 0.9773 | Validation Accuracy = 0.9659
+k = 7 | Training Accuracy = 0.9740 | Validation Accuracy = 0.9645

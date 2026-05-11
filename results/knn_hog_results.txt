@@ -1,0 +1,11 @@
+KNN HOG Results
+========================================
+
+Accuracy : 0.9890
+Precision: 0.9184
+Recall   : 0.9912
+F1-score : 0.9534
+
+Confusion Matrix:
+[[8765  100]
+ [  10 1125]]
